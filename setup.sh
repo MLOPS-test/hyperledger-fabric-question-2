@@ -8,7 +8,7 @@ TARGET_DIR="$(pwd)"
 echo "Cloning repository from $REPO_URL to $TARGET_DIR ..."
 git clone $REPO_URL $TARGET_DIR
 
-cd $TARGET_DIR && curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh
+cd $TARGET_DIR && curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh && ./install-fabric.sh --fabric-version 2.5.10
 
 # Check if clone was successful
 if [ $? -ne 0 ]; then
