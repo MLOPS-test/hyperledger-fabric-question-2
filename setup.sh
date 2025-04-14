@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-REPO_URL="https://github.com/MLOPS-test/hyperledger-fabric-sample-question.git"
+REPO_URL="https://github.com/MLOPS-test/hyperledger-fabric-question-2.git"
 TARGET_DIR="$(pwd)"
 
 # Clone the repository
