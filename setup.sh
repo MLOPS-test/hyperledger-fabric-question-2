@@ -2,7 +2,8 @@
 
 # Variables
 REPO_URL="https://github.com/MLOPS-test/hyperledger-fabric-question-2.git"
-TARGET_DIR="$(pwd)"
+# TARGET_DIR="$(pwd)"
+TARGET_DIR="/home/ubuntu/challenge"
 
 # Clone the repository
 echo "Cloning repository from $REPO_URL to $TARGET_DIR ..."
